@@ -1,0 +1,9 @@
+sources:
+  - path: assets
+    prefix: _
+    recursive: true
+
+  - path: locale
+    prefix: _
+    ns: "@locale/$PKG/.."
+    recursive: true
